@@ -1,0 +1,15 @@
+GET http://localhost:5111/game
+
+###
+GET http://localhost:5111/game/1
+
+###
+POST http://localhost:5111/games
+Content-Type: application/json
+
+{
+  "Name":"MNCRAFT",
+  "Genre":"th family",
+  "Price": 19.99,
+  "ReleaseDate": "2011-11-18"
+}
